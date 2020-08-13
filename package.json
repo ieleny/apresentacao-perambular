@@ -8,6 +8,12 @@
     "type": "git",
     "url": "git+https://github.com/ieleny/apresentacao-perambular.git"
   },
+  "dependencies": {
+    "@popperjs/core": "^2.4.4",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
   "devDependencies": {
     "@popperjs/core": "^2.4.4",
     "bootstrap": "^4.5.2",
