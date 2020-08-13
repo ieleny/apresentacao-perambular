@@ -1,0 +1,17 @@
+{
+  "name": "apresentacao-perambular",
+  "version": "1.0.0",
+  "description": "Site sobre a empresa Perambular",
+  "author": "Ieleny <ieleny@hotmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ieleny/apresentacao-perambular.git"
+  },
+  "devDependencies": {
+    "@popperjs/core": "^2.4.4",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
