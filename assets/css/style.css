@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+
+/* Todas as Telas */
+html,
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    height: 100vh;
+}
+
+#quem-somos,
+#valores,
+#contato,
+#missao,
+#visao,
+#produtos{
+    height: 100vh;
+    background-color:#f3f3f3;
+}
+
+#equipe{
+    margin-bottom: 20%;
+}
+
+#contato{
+    padding: 2%;
+    height:  15%;
+    background-color: #063377;
+}
+
+footer{
+    background-color: #063377;
+}
+
+/* Titulo */
+.quem-somos__titulo,
+.valores__titulo,
+.contato__titulo,
+.missao__titulo,
+.visao__titulo,
+.equipe__titulo,
+.contato__titulo{
+    margin-bottom: 100px;
+    margin-top: 140px;
+    color: #e87232;
+    font-size: 4em;
+}
+
+.produtos__titulo{
+    margin-bottom: 60px;
+    margin-top: 100px;
+    color: #e87232;
+    font-size: 4em;
+}
+
+/* Navbar */
+.bg-dark {
+    background-color: #063377 !important;
+}
+
+.navbar-brand__imagem {
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 60px;
+}
+
+.nav-link {
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+
+
+/* Home */
+.home__imagem {
+    width: 100%;
+    height: 100vh;
+}
+
+.home__texto {
+    position: absolute;
+    text-justify: auto;
+    margin-left: 10%;
+    font-family: 'Lora', serif;
+}
+
+.home__texto__linha{
+    width: 40%;
+    margin-bottom: 4%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 3px solid whitesmoke;
+}
+
+.home__texto__titulo {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5%;
+    font-size: 4em;
+    color:white;
+}
+
+.home__texto_subtitulo {
+    color:white;
+    font-size: 3em;
+}
+
+.home__divisoria {
+    position: absolute;
+    background-color: #e98e66;
+    width: 100%;
+    height: 100vh;
+}
+
+.home__balao {
+    margin-top: 10%;
+    width:75%;
+    position: absolute;
+}
+
+
+
+/* Sections */
+.quem-somos__informacao,
+.visao_informacao,
+.missao_informacao,
+.valores_informacao{
+    font-size: 2.5em;
+    text-align: justify;
+    color:#626a83;
+}
+
+.produtos__subtitulo{
+    color: #f28950;
+    font-size: 4em;
+}
+
+.produtos__informacao{
+    color: #626a83;
+    font-size: 2.5em;
+}
+
+
+.equipe_informacao{
+    align-items: center;
+    margin-bottom: 100px;
+    font-size: 2.0em;
+    color:#626a83;
+}
+
+.contato__informacao{
+    font-size: 2em;
+    text-align: justify;
+    color:white;
+}
+
+.quem-somos__imagem{
+    width:90%;
+    height:90%;
+}
+
+.visao__imagem{
+    width:100%;
+    height:100%;
+}
+
+.produtos__imagem {
+    width:68%;
+    height:68%;
+}    
+
+
+
+
+/* Tela */
+@media screen and (max-width:500px){
+
+    .navbar-brand__imagem {
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 60px;
+    }
+
+    .home__texto__titulo {
+        margin-top: 20%;
+        font-size: 2em;
+    }
+    
+    .home__texto_subtitulo {
+        font-size: 2em;
+    }
+
+    .quem-somos__informacao,
+    .visao_informacao,
+    .missao_informacao,
+    .valores_informacao{
+        font-size: 1.0em;
+        text-align: justify;
+    }
+
+    .equipe_informacao{
+        align-items: center;
+        font-size: 1.0em;
+    }
+    
+    .contato__informacao{
+        font-size: 1.0em;
+        text-align: justify;
+        color:white;
+    }
+
+
+}
+
+
+@media screen and (min-width:1065px) {
+
+    .home__texto__titulo {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 5%;
+        font-size: 4em;
+    }
+    
+    .home__texto_subtitulo {
+        font-size: 3em;
+    }
+
+}
+
+@media screen and (min-width:2560px){
+
+    .home__texto__titulo {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 5%;
+        font-size: 6em;
+    }
+    
+}
+
